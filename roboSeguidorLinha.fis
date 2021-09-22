@@ -1,0 +1,57 @@
+[System]
+Name='roboSeguidorLinha'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=15
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='angulo'
+Range=[-90 90]
+NumMFs=5
+MF1='MN':'trimf',[-90 -75 -60]
+MF2='GN':'trimf',[-60 -22.5 -15]
+MF3='ZD':'trimf',[-15 0 15]
+MF4='GP':'trimf',[15 45 60]
+MF5='MG':'trimf',[60 75 90]
+
+[Input2]
+Name='centro'
+Range=[-10 10]
+NumMFs=3
+MF1='AB':'trapmf',[-100 -100 -10 2.01]
+MF2='NC':'trimf',[2.2 2.7 3.2]
+MF3='AC':'trapmf',[3.099 10 100 100]
+
+[Output1]
+Name='anguloCorrecao'
+Range=[-25 25]
+NumMFs=5
+MF1='NG':'trimf',[-45.83 -25 -9]
+MF2='NP':'trimf',[-10 -2.5 5]
+MF3='PG':'trimf',[9 25 45.83]
+MF4='ZE':'trimf',[-8 0 8]
+MF5='PP':'trimf',[5 7.5 10]
+
+[Rules]
+5 3, 1 (1) : 1
+5 2, 4 (1) : 1
+5 1, 3 (1) : 1
+4 3, 2 (1) : 1
+4 2, 5 (1) : 1
+4 1, 5 (1) : 1
+3 3, 4 (1) : 1
+3 2, 4 (1) : 1
+3 1, 4 (1) : 1
+2 3, 5 (1) : 1
+2 2, 2 (1) : 1
+2 1, 2 (1) : 1
+1 3, 3 (1) : 1
+1 2, 4 (1) : 1
+1 1, 1 (1) : 1
