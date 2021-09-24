@@ -21,7 +21,7 @@ Este trabalho tem como objetivo desenvolver um controlador simples para guiar um
 | Centro (de acordo com y) | Fizemos y = 3   |
 | ------------------------ | :-------------: |
 | Acima (AC)               | [3.099 , +100]  |
-| No Centro (NC)           | [3.2  2.2]      |
+| No Centro (NC)           | [3.2 , 2.2]      |
 | Abaixo (AB)              | [2.01 , -100]   |
 
 | Ângulo [-90 , 90]            | Arcotangente do coeficiente angular da reta |
