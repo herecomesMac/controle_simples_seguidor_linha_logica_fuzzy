@@ -1,7 +1,7 @@
 # Controle Simples de Lógica Fuzzy Para Robôs Seguidores de Linha
 
-Trabalho realizado para a matéria TÓPICOS ESPECIAIS EM SISTEMAS DE PROGRAMAÇÃO VI - 2021.1
-Universidade Federal Fluminense
+Trabalho realizado para a matéria TÓPICOS ESPECIAIS EM SISTEMAS DE PROGRAMAÇÃO VI - 2021.1  
+Universidade Federal Fluminense  
 **Docente**:  
 Patrick Moratori  
 **Discentes**:  
