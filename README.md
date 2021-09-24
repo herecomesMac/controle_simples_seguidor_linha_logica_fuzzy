@@ -58,7 +58,7 @@ Este trabalho tem como objetivo desenvolver um controlador simples para guiar um
 O gráfico do resultado pode ser encontrado abaixo:
 
 <div align="center">
-<img src="resultado.jpg" width="600" >
+<img src="resultado.jpg" width="1000" >
 </div>
 
 Nós começamos com um passo do robô avançando 10 unidades no eixo x, entretanto, com um valor tão alto, não foi possível fazer com o que o robô se estabilizasse. Diminuímos, entao para 1 unidade no eixo x a cada interação e com isso conseguimos resultados satisfatórios.
