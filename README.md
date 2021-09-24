@@ -2,10 +2,12 @@
 
 Trabalho realizado para a matéria TÓPICOS ESPECIAIS EM SISTEMAS DE PROGRAMAÇÃO VI - 2021.1
 Universidade Federal Fluminense
-**Docente**: Patrick Moratori
-**Discentes**:  Marcos Augusto Nolasco do Amaral
-                Patricia Martins Rocca Crestani
-                Thales de Souza Machado
+**Docente**: 
+Patrick Moratori
+**Discentes**:  
+Marcos Augusto Nolasco do Amaral
+Patricia Martins Rocca Crestani
+Thales de Souza Machado
 
 
 
