@@ -5,9 +5,9 @@ Universidade Federal Fluminense
 **Docente**: 
 Patrick Moratori
 **Discentes**:  
-Marcos Augusto Nolasco do Amaral
-Patricia Martins Rocca Crestani
-Thales de Souza Machado
+Marcos Augusto Nolasco do Amaral  
+Patricia Martins Rocca Crestani  
+Thales de Souza Machado  
 
 
 
