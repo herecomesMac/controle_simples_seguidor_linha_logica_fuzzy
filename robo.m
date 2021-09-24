@@ -44,46 +44,10 @@ plot(xCentro, yCentro);
 plot_line(xSensor1, xSensor2, ySensor1, ySensor2);
 t = text(xCentro, yCentro, string(controle_passo));
 hold on;
-% Comentando caso a gente queira usar input
-%yc = input('Qual a posicao y inicial do robo? (6 <= y <= 94) => ');
-%ymin1 = yi + r;     % Valor minimo da ordenada inicial do robo
-%ymax1 = yf - r;     % Valor maximo da ordenada inicial do robo
-%while yc < ymin1 | yc > ymax1 
-%    yc = input('Posicao invalida! Entre com um novo valor entre 6 e 94  => ');
-%end
 
 axis([0 100 0 100]);
 
-% Comentando caso a gente queira usar input
-% Angulo do robo com a horizontal - variavel phi
-%phii=-90; phif=90;
-%phi = input('Qual o angulo inicial com a linha horizontal? (-90 <= angulo <= 90) =>');
-%while phi < phii | phi > phif
-%    phi = input('Angulo invalido! Entre com um novo valor entre -90 e 90 => ');
-%end
-
-% Passos para o robo atingir a outra parede
-n_passos = 0;
-
-% Posicao x que o robo deve atingir, ou seja, a parede lateral direita
-xmeta = 100;
-
-erro = 0.05;
-
-% Passo que o robo andara
-passo = 1;
-
-dist = 100;
-
-% Controle de movimentação do robô caso as regras não o façam
-% movimentar pelo mundo virtual
-
-xSensor = (4 * cos((30 * pi)/180)) - (3 * sin((30 * pi)/180));
-ySensor = (4 * sin((30 * pi)/180)) + (3 * cos((30 * pi)/180));
-fprintf("Sensor fake: %d %d", xSensor, ySensor);
-
 while(xCentro < 100)
-   %verificar divisao por 0
    coeficienteAngular = (ySensor2 - ySensor1)/(xSensor2 - xSensor1);
    arctan = atan(coeficienteAngular);
    arctan_deg = arctan * (180/pi);
